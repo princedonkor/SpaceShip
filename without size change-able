@@ -1,0 +1,206 @@
+public class MyClass{
+public static void main(string arg[]){
+
+//SIZE must be 5
+
+
+final int SIZE = 5;
+int DOT = SIZE - 2;
+//for the first and last of the space ship
+for (int i = 1; i <= SIZE; i++) {
+    for (int s = 1; s<= SIZE - i + 1; s++) {
+        System.out.print(" ");
+    }
+    for (int t = 1; t<= i; t++) {
+        System.out.print("/");
+    }
+    for (int stars = 1; stars<= 1; stars++) {
+        System.out.print("**");
+    }
+    for (int t = 1; t<= i; t++) {
+       System.out.print("\\");
+    }
+    for (int s = 1; s<= SIZE - i; s++) {
+        System.out.print(" ");
+    }
+    System.out.println();
+    }
+    //for +=*
+    
+    System.out.print("+");
+    for (int ens = 1; ens<= SIZE+1; ens++) {
+        System.out.print("=*");
+    }
+    System.out.println("+");
+    //for the first half of the middle of the rocket also know as part 1
+      for (int i = 1; i <=DOT; i++){
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }   
+            
+        for (int d = 1; d <=DOT-i; d++) {
+            System.out.print(".");
+        }      
+            
+        for (int t = 1; t <=i; t++) {
+            System.out.print("/\\");
+        }   
+            
+        for (int d = 1; d <=(DOT-i)*2; d++) {
+            System.out.print(".");
+        }     
+            
+        for (int t = 1; t <=i; t++) {
+            System.out.print("/\\");
+        }    
+        for (int d = 1; d <=DOT-i; d++) {
+            System.out.print(".");
+        }    
+            
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }   
+        System.out.println();
+        }
+        
+    //part 2
+    
+    for (int i = 1; i <= DOT; i++) {
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }
+        for (int d = 1; d <=i-1; d++) {
+            System.out.print(".");
+        }
+        for (int t = 1; t <=(DOT+1)-i; t++) {
+            System.out.print("\\/");
+        }
+        for (int d = 1; d <=(i-1)*2; d++) {
+            System.out.print(".");
+        }
+        
+        for (int t = 1; t <=(DOT+1)-i; t++) {
+            System.out.print("\\/");
+        }
+        
+        for (int d = 1; d <=i-1; d++) {
+            System.out.print(".");
+        }
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }
+        System.out.println();
+    }
+    //2nd =++=-=-=-
+        System.out.print("+");
+    for (int ens = 1; ens<= SIZE+1; ens++) {
+        System.out.print("=*");
+    }
+    System.out.println("+");
+    
+    //3rd \/
+    for (int i = 1; i <= DOT; i++) {
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }
+        for (int d = 1; d <=i-1; d++) {
+            System.out.print(".");
+        }
+        for (int t = 1; t <=(DOT+1)-i; t++) {
+            System.out.print("\\/");
+        }
+        for (int d = 1; d <=(i-1)*2; d++) {
+            System.out.print(".");
+        }
+        
+        for (int t = 1; t <=(DOT+1)-i; t++) {
+            System.out.print("\\/");
+        }
+        
+        for (int d = 1; d <=i-1; d++) {
+            System.out.print(".");
+        }
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }
+        System.out.println();
+    }   
+    //4rd /\
+    for (int i = 1; i <=DOT; i++){
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }   
+            
+        for (int d = 1; d <=DOT-i; d++) {
+            System.out.print(".");
+        }      
+            
+        for (int t = 1; t <=i; t++) {
+            System.out.print("/\\");
+        }   
+            
+        for (int d = 1; d <=(DOT-i)*2; d++) {
+            System.out.print(".");
+        }     
+            
+        for (int t = 1; t <=i; t++) {
+            System.out.print("/\\");
+        }    
+        for (int d = 1; d <=DOT-i; d++) {
+            System.out.print(".");
+        }    
+            
+        for (int line = 1; line <=1; line++) {
+            System.out.print("|");
+        }   
+        System.out.println();
+        }    
+    //3rd =-=-=-=-=-=+
+        System.out.print("+");
+    for (int ens = 1; ens<= SIZE+1; ens++) {
+        System.out.print("=*");
+    }
+    System.out.println("+");
+    //space end
+    for (int i = 1; i <= SIZE; i++) {
+    for (int s = 1; s<= SIZE - i + 1; s++) {
+        System.out.print(" ");
+    }
+    for (int t = 1; t<= i; t++) {
+        System.out.print("/");
+    }
+    for (int stars = 1; stars<= 1; stars++) {
+        System.out.print("**");
+    }
+    for (int t = 1; t<= i; t++) {
+       System.out.print("\\");
+    }
+    for (int s = 1; s<= SIZE - i; s++) {
+        System.out.print(" ");
+    }
+    System.out.println();
+    }
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}
